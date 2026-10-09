@@ -1,0 +1,8 @@
+/* Touchstone 4 enhancements; original styles.css stays in use. */
+#category-filter {display:block;max-width:20rem;width:100%;padding:.65rem;margin:.5rem 0 1rem;font:inherit;}
+#filter-status {font-weight:600;}
+.product-category[hidden] {display:none !important;}
+.field-error {color:#a31d1d;font-size:.92rem;margin:.2rem 0 .75rem;min-height:1em;}
+[aria-invalid="true"] {border:2px solid #a31d1d;outline-offset:2px;}
+#form-status {font-weight:600;margin-top:1rem;}
+@media(max-width:600px){#category-filter{max-width:100%;}}
